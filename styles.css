@@ -1,0 +1,20 @@
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+/* .tab-content{
+    display: flex;
+    justify-content: center;
+} */
+
+/* Botones cambio de pagina a perfil */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    
+    color: blue;
+    background-color: white;
+}
+
+/* mueve el menu desplegable btn gris*/
+.dropdown-menu[data-bs-popper] {
+    left: -95px;
+}
